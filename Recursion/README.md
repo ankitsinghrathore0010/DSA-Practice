@@ -4,3 +4,4 @@ This folder contains recursion problems solved in C++ as part of daily DSA pract
 
 ## Problems Solved
 - Remove Continuous Duplicates (String Recursion)
+- Find Sum of Array Elements (Recursion)
