@@ -8,3 +8,4 @@ This folder contains recursion problems solved in C++ as part of daily DSA pract
 - Check if Array is Sorted (Recursion)
 - Reverse Array (Recursion)
 - Replace 'x' with "aam" (String Recursion)
+- Generate Valid Parentheses (Recursion / Backtracking)
