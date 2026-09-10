@@ -1,0 +1,34 @@
+#include <stdio.h>
+char *mystrstr(const char *str, const char *sub)
+{
+    int i,j;
+    for (i =0; str[i]!= '\0';i++)
+    {
+        j = 0;
+
+        while (sub[j]!='\0' && str[i +j] ==sub[j])
+        {
+            j++;
+        }
+        if (sub[j]=='\0')
+        {
+            return (char *)&str[i];
+        }
+    }
+
+    return NULL;
+}
+
+int main()
+{
+    char str[30] ="Pankaj Sharma";
+    char sub[20]= "Sherma";
+    char *result =mystrstr(str, sub);
+
+    if (result !=NULL)
+        printf("Substring found: %s", result);
+    else
+        printf("Substring not found");
+
+    return 0;
+}
